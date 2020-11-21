@@ -107,3 +107,10 @@ from student
 join grade on grade.studentId = student.id
 join course on course.id = student.courseId
 where grade.grade > 10;
+
+select COUNT(student.name) as "Student Count"
+from student
+join grade on grade.studentId = student.id
+join course on course.id = student.courseId
+where grade.grade > 10;
+
