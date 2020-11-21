@@ -28,7 +28,7 @@ CREATE TABLE student (
 );
 
 CREATE TABLE grade (
-  grade INT  NOT NULL,
+  grade INT ,
   studentId INT NOT NULL,
   courseID INT NOT NULL,
   FOREIGN KEY (studentId) REFERENCES student(id),
